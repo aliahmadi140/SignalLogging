@@ -53,5 +53,5 @@ signal.signal(signal.SIGALRM, alarm_handler)
 signal.signal(signal.SIGINT,signal_handler)
 
 while True:
-    signal.alarm(1)
+    signal.alarm(10)
     signal.pause()
